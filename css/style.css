@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* globale style */
+
+/* header */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.header-containe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+  padding-top: 13px;
+}
+.header__nav-lang {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.header__lang {
+  font-family: "Tourney";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: black;
+}
+
+.header__nav {
+  display: flex;
+  gap: 10px;
+  font-family: "Staatliches";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+
+.header__logo {
+  width: 238px;
+}
+
+/* .wrapper{
+  background-image: url(../img/bg-picture.png);
+  background-repeat: no-repeat;
+  background-position: 90% 50%;
+  background-attachment: fixed;
+ } */
+/* header End */
+
+/* main-wrap-containe */
+
+.main-wrap-containe {
+  display: flex;
+  margin-top: 150px;
+}
+main {
+  background-image: url(../img/bg-picture.png);
+  background-repeat: no-repeat;
+  background-position: 80% 65%;
+  background-attachment: fixed;
+}
+.article {
+  max-width: 385px;
+  height: 462px;
+  margin: 0;
+  position: sticky;
+  top: 170px;
+}
+
+.content {
+  border-bottom: 1px solid #bdbdbd;
+  font-family: "Francois One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 70px;
+}
+
+.article__content {
+  margin-right: 30px;
+}
+
+.section-title {
+  font-family: "Francois One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.section-title::before {
+  content: "";
+  display: block;
+  height: 8px;
+  width: 100px;
+  background: #000000;
+  margin-bottom: 20px;
+}
+
+h2 > span {
+  font-family: "Farro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+
+  color: #000000;
+}
+p {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 70px;
+}
